@@ -1,6 +1,6 @@
 import React from 'react';
 import { getTelegramUser } from '../services/telegram';
-import { Activity, Sparkles } from 'lucide-react';
+import { Logo } from './Logo';
 
 interface HeaderProps {
   currentStep: number;
@@ -27,24 +27,12 @@ export const Header: React.FC<HeaderProps> = ({ currentStep }) => {
       {/* Top Banner (User Profile + Branding) */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <div style={{
-            background: 'linear-gradient(135deg, var(--color-primary), var(--color-secondary))',
-            borderRadius: '10px',
-            padding: '6px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: 'var(--shadow-glow)'
-          }}>
-            <Activity size={20} color="#fff" />
-          </div>
+          <Logo size={28} />
           <div>
-            <h1 style={{ fontSize: '1.1rem', fontWeight: 800, margin: 0, letterSpacing: '-0.01em' }}>
-              <span className="text-gradient">Pulse</span>Market
+            <h1 style={{ fontSize: '1.1rem', fontWeight: 800, margin: 0, letterSpacing: '-0.01em', display: 'flex', alignItems: 'center' }}>
+              <span style={{ color: '#ffffff' }}>OSON</span>
+              <span style={{ color: '#2563eb' }}>MED</span>
             </h1>
-            <span style={{ fontSize: '0.7rem', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', gap: '2px', fontWeight: 600 }}>
-              <Sparkles size={8} /> Powered by Gemini
-            </span>
           </div>
         </div>
 

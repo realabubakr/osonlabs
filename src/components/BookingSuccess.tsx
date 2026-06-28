@@ -48,11 +48,11 @@ export const BookingSuccess: React.FC<BookingSuccessProps> = ({ details, onReset
 
   const handleShare = () => {
     triggerHaptic('light');
-    const shareText = `🩸 Just booked an at-home blood collection through PulseMarket!\n🏥 Lab: ${details.labName}\n📅 Date: ${details.date} during ${details.timeSlot}\n💳 Total Price: $${details.totalCost.toFixed(2)}`;
+    const shareText = `🩸 Just booked an at-home blood collection through OsonMed!\n🏥 Lab: ${details.labName}\n📅 Date: ${details.date} during ${details.timeSlot}\n💳 Total Price: ${details.totalCost.toLocaleString()} UZS`;
     
     if (navigator.share) {
       navigator.share({
-        title: 'My PulseMarket Booking',
+        title: 'My OsonMed Booking',
         text: shareText,
       }).catch(err => console.log('Share error:', err));
     } else {
@@ -205,7 +205,7 @@ export const BookingSuccess: React.FC<BookingSuccessProps> = ({ details, onReset
 
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '6px', paddingTop: '6px', borderTop: '1px solid rgba(255,255,255,0.03)', fontSize: '0.85rem', fontWeight: 700 }}>
             <span style={{ color: 'var(--text-primary)' }}>Total Paid (Simulated)</span>
-            <span style={{ color: 'var(--color-primary)', fontSize: '1rem' }}>${details.totalCost.toFixed(2)}</span>
+            <span style={{ color: 'var(--color-primary)', fontSize: '1rem' }}>{details.totalCost.toLocaleString()} UZS</span>
           </div>
         </div>
       </div>

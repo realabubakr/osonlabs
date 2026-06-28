@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <filter id="drop-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 900; fill: #FFFFFF; }
+    .card-title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; fill: #FFFFFF; }
+    .body { font-family: 'Inter', system-ui, sans-serif; font-weight: 500; fill: #94A3B8; line-height: 1.5; }
+    .stat { font-family: 'Inter', system-ui, sans-serif; font-weight: 900; fill: #2DD4BF; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg-grad)"/>
+
+  <!-- Slide Header -->
+  <text x="100" y="120" class="title" font-size="56" letter-spacing="-0.02em">
+    Market Opportunity: <tspan fill="#3B82F6">Why Uzbekistan? Why Now?</tspan>
+  </text>
+  <line x1="100" y1="160" x2="1820" y2="160" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Market Size Card (Left) -->
+  <g transform="translate(100, 220)" filter="url(#drop-shadow)">
+    <rect width="840" height="720" rx="24" fill="rgba(15, 23, 42, 0.45)" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+    
+    <text x="60" y="80" class="card-title" font-size="32" fill="#3B82F6">Tashkent Market Size</text>
+    
+    <g transform="translate(60, 160)">
+      <text x="0" y="50" class="stat" font-size="80" fill="#2DD4BF">1.2M+</text>
+      <text x="0" y="90" class="card-title" font-size="24">Chronic Patients (Tashkent &amp; Regions)</text>
+      <text x="0" y="130" class="body" font-size="18" fill="#94A3B8">Requiring regular blood drawing and health trend monitoring.</text>
+    </g>
+
+    <g transform="translate(60, 360)">
+      <text x="0" y="50" class="stat" font-size="80" fill="#2DD4BF">$45M+</text>
+      <text x="0" y="90" class="card-title" font-size="24">Addressable Diagnostic Market (Tashkent)</text>
+      <text x="0" y="130" class="body" font-size="18" fill="#94A3B8">Estimated annual out-of-pocket spending on private outpatient laboratory diagnostic testing.</text>
+    </g>
+
+    <g transform="translate(60, 560)">
+      <text x="0" y="40" class="card-title" font-size="28" fill="#FFFFFF">Recurring Lifetime Value (LTV)</text>
+      <text x="0" y="80" class="body" font-size="18" fill="#94A3B8">Chronic patients are not one-time customers. They represent a highly predictable, recurring revenue stream testing 3-4 times a year.</text>
+    </g>
+  </g>
+
+  <!-- Tailwinds Card (Right) -->
+  <g transform="translate(980, 220)" filter="url(#drop-shadow)">
+    <rect width="840" height="720" rx="24" fill="rgba(15, 23, 42, 0.45)" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+    
+    <text x="60" y="80" class="card-title" font-size="32" fill="#3B82F6">Three Macro Tailwinds</text>
+
+    <!-- Tailwind 1 -->
+    <g transform="translate(60, 150)">
+      <rect width="40" height="40" rx="10" fill="rgba(59, 130, 246, 0.15)" stroke="#3B82F6" stroke-width="1.5"/>
+      <text x="20" y="26" font-family="sans-serif" font-size="18" font-weight="900" fill="#3B82F6" text-anchor="middle">A</text>
+      <text x="65" y="30" class="card-title" font-size="24">Dmed Digital Transition</text>
+      <text x="65" y="65" class="body" font-size="18">Uzbekistan's Ministry of Health is actively transitioning to the `dmed` e-prescription system, creating a massive digital health-record shift.</text>
+    </g>
+
+    <!-- Tailwind 2 -->
+    <g transform="translate(60, 330)">
+      <rect width="40" height="40" rx="10" fill="rgba(45, 212, 191, 0.15)" stroke="#2DD4BF" stroke-width="1.5"/>
+      <text x="20" y="26" font-family="sans-serif" font-size="18" font-weight="900" fill="#2DD4BF" text-anchor="middle">B</text>
+      <text x="65" y="30" class="card-title" font-size="24">Telegram Mini App Boom</text>
+      <text x="65" y="65" class="body" font-size="18">Telegram is the operating system of Uzbekistan. WebApp-based services experience near-zero friction and require no heavy App Store downloads.</text>
+    </g>
+
+    <!-- Tailwind 3 -->
+    <g transform="translate(60, 510)">
+      <rect width="40" height="40" rx="10" fill="rgba(99, 102, 241, 0.15)" stroke="#6366F1" stroke-width="1.5"/>
+      <text x="20" y="26" font-family="sans-serif" font-size="18" font-weight="900" fill="#6366F1" text-anchor="middle">C</text>
+      <text x="65" y="30" class="card-title" font-size="24">Aggressive Lab Competition</text>
+      <text x="65" y="65" class="body" font-size="18">Tashkent private labs are competing ruthlessly on prices and home visits, making them extremely eager to integrate with booking aggregators.</text>
+    </g>
+  </g>
+
+  <!-- Slide Footer -->
+  <rect x="0" y="1040" width="1920" height="40" fill="rgba(15, 23, 42, 0.6)"/>
+  <text x="100" y="1066" font-family="sans-serif" font-size="16" fill="#64748B">OsonMed Ideathon Pitch</text>
+  <text x="1820" y="1066" font-family="sans-serif" font-size="16" fill="#64748B" text-anchor="end">Slide 6 / 6</text>
+</svg>

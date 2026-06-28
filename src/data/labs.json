@@ -1,78 +1,78 @@
 [
   {
-    "id": "quest-mobile",
-    "name": "Quest Mobile Diagnostics",
+    "id": "intermed",
+    "name": "Intermed Innovation",
+    "rating": 4.9,
+    "distanceMiles": 1.2,
+    "processingTime": "4-12 Hours",
+    "priceList": {
+      "CBC (Complete Blood Count)": 45000,
+      "Lipid Panel": 90000,
+      "Thyroid Panel (TSH)": 80000,
+      "HbA1c": 85000,
+      "Metabolic Panel (CMP)": 140000,
+      "Vitamin D Test": 210000,
+      "Liver Function Panel": 95000,
+      "Urinalysis": 25000
+    },
+    "earliestSlot": "Bugun, 14:00",
+    "homeCollectionFee": 15000
+  },
+  {
+    "id": "diyomed",
+    "name": "Diyomed Diagnostics",
     "rating": 4.8,
-    "distanceMiles": 1.4,
+    "distanceMiles": 2.1,
+    "processingTime": "6-18 Hours",
+    "priceList": {
+      "CBC (Complete Blood Count)": 40000,
+      "Lipid Panel": 85000,
+      "Thyroid Panel (TSH)": 75000,
+      "HbA1c": 80000,
+      "Metabolic Panel (CMP)": 130000,
+      "Vitamin D Test": 195000,
+      "Liver Function Panel": 90000,
+      "Urinalysis": 20000
+    },
+    "earliestSlot": "Ertaga, 8:00 AM",
+    "homeCollectionFee": 10000
+  },
+  {
+    "id": "alpha-diagnostic",
+    "name": "Alpha Diagnostic",
+    "rating": 4.7,
+    "distanceMiles": 0.8,
     "processingTime": "12-24 Hours",
     "priceList": {
-      "CBC (Complete Blood Count)": 24.00,
-      "Lipid Panel": 34.00,
-      "Thyroid Panel (TSH)": 39.00,
-      "HbA1c": 29.00,
-      "Metabolic Panel (CMP)": 32.00,
-      "Vitamin D Test": 49.00,
-      "Liver Function Panel": 28.00,
-      "Urinalysis": 18.00
+      "CBC (Complete Blood Count)": 50000,
+      "Lipid Panel": 95000,
+      "Thyroid Panel (TSH)": 85000,
+      "HbA1c": 90000,
+      "Metabolic Panel (CMP)": 150000,
+      "Vitamin D Test": 220000,
+      "Liver Function Panel": 100000,
+      "Urinalysis": 30000
     },
-    "earliestSlot": "Tomorrow, 7:30 AM",
-    "homeCollectionFee": 12.00
+    "earliestSlot": "Bugun, 16:30",
+    "homeCollectionFee": 0
   },
   {
-    "id": "labcorp-ondemand",
-    "name": "Labcorp OnDemand Express",
-    "rating": 4.7,
-    "distanceMiles": 2.1,
-    "processingTime": "18-36 Hours",
-    "priceList": {
-      "CBC (Complete Blood Count)": 28.00,
-      "Lipid Panel": 32.00,
-      "Thyroid Panel (TSH)": 35.00,
-      "HbA1c": 27.00,
-      "Metabolic Panel (CMP)": 38.00,
-      "Vitamin D Test": 45.00,
-      "Liver Function Panel": 32.00,
-      "Urinalysis": 20.00
-    },
-    "earliestSlot": "Tomorrow, 9:00 AM",
-    "homeCollectionFee": 9.00
-  },
-  {
-    "id": "care-first-labs",
-    "name": "CareFirst Mobile Labs",
-    "rating": 4.9,
+    "id": "biomed",
+    "name": "Biomed Clinic",
+    "rating": 4.6,
     "distanceMiles": 3.5,
-    "processingTime": "8-12 Hours",
+    "processingTime": "12-24 Hours",
     "priceList": {
-      "CBC (Complete Blood Count)": 35.00,
-      "Lipid Panel": 45.00,
-      "Thyroid Panel (TSH)": 49.00,
-      "HbA1c": 35.00,
-      "Metabolic Panel (CMP)": 45.00,
-      "Vitamin D Test": 59.00,
-      "Liver Function Panel": 40.00,
-      "Urinalysis": 25.00
+      "CBC (Complete Blood Count)": 38000,
+      "Lipid Panel": 80000,
+      "Thyroid Panel (TSH)": 70000,
+      "HbA1c": 75000,
+      "Metabolic Panel (CMP)": 125000,
+      "Vitamin D Test": 190000,
+      "Liver Function Panel": 85000,
+      "Urinalysis": 18000
     },
-    "earliestSlot": "Today, 4:30 PM",
-    "homeCollectionFee": 19.00
-  },
-  {
-    "id": "apex-diagnostics",
-    "name": "Apex Community Diagnostics",
-    "rating": 4.4,
-    "distanceMiles": 0.8,
-    "processingTime": "24-48 Hours",
-    "priceList": {
-      "CBC (Complete Blood Count)": 19.00,
-      "Lipid Panel": 29.00,
-      "Thyroid Panel (TSH)": 30.00,
-      "HbA1c": 22.00,
-      "Metabolic Panel (CMP)": 28.00,
-      "Vitamin D Test": 39.00,
-      "Liver Function Panel": 24.00,
-      "Urinalysis": 15.00
-    },
-    "earliestSlot": "Day after tomorrow, 10:00 AM",
-    "homeCollectionFee": 5.00
+    "earliestSlot": "Ertaga, 9:00 AM",
+    "homeCollectionFee": 20000
   }
 ]

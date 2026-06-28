@@ -11,9 +11,9 @@
   --text-secondary: hsl(215, 20%, 65%);
   --text-muted: hsl(215, 16%, 47%);
   
-  --color-primary: hsl(168, 76%, 42%);      /* Clean Clinic Mint */
-  --color-primary-hover: hsl(168, 76%, 36%);
-  --color-secondary: hsl(252, 78%, 65%);    /* Electric Indigo */
+  --color-primary: hsl(221, 83%, 53%);       /* OsonMed Royal Blue */
+  --color-primary-hover: hsl(221, 83%, 45%);
+  --color-secondary: hsl(238, 83%, 64%);     /* Vibrant Indigo */
   --color-accent: hsl(38, 92%, 58%);        /* Warm Gold */
   --color-danger: hsl(346, 84%, 61%);       /* Crimson Rose */
   --color-success: hsl(142, 72%, 45%);      /* Pure Emerald */
@@ -21,7 +21,7 @@
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-glow: 0 0 20px rgba(45, 212, 191, 0.15);
+  --shadow-glow: 0 0 20px rgba(37, 99, 235, 0.25);
 
   --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   
@@ -64,6 +64,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
   max-width: 480px; /* Locked mobile view for TMA realism */
   margin: 0 auto;
   background: var(--panel-bg);
@@ -72,6 +73,7 @@ body {
   border-right: 1px solid var(--panel-border);
   position: relative;
   box-shadow: var(--shadow-lg);
+  overflow-x: hidden;
 }
 
 /* Headers & Typography */
